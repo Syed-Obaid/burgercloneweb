@@ -1,0 +1,143 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5%;
+    
+}
+.navbar-item{
+    display: flex;
+   color: white;
+    gap: 15px;
+}
+.navbar-item p{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: orangered;
+}
+.navbar-item i{
+    padding-right: 5px;
+}
+.web{
+    font-weight: bolder;
+    color: brown;
+}
+.bottom{
+    border-bottom: 1px solid gray;
+}
+.navbar a{
+    color: rgb(32, 32, 32);
+}
+
+
+/* hero */
+
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px 5%;
+    align-items: center;
+}
+.hero-cnt{
+    max-width: 21%;
+}
+.hero-cnt h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: brown;
+    padding-bottom: 20px;
+}
+.cart{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+}
+.cart span{
+    padding-right: 8px;
+}
+.bike{
+    border: 1px solid brown;
+    color: brown;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+}
+
+/* services */
+
+.services{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 15px;
+   padding-top: 10px;
+  
+
+}
+.services-1{
+   max-width: 46%;
+   border-radius: 10px;
+   box-shadow: 1px 1px 1px 1px;
+   padding-bottom: 10px;
+   
+
+}
+.image-set{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.services-1 h2{
+    padding-top: 20px;
+    color: brown;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.services-1 p{
+    color: brown;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.services-1 a{
+    color: brown;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.btn1{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.btn1 button{
+   border: 1px solid brown;
+   padding: 3px 15px;
+   border-radius: 20px;
+   
+}
+
+.mobile{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+}
+.mobile1{
+    max-width: 50%;
+}
+.mobile1 h1{
+    color: brown;
+    font-weight: bolder;
+}
+.footer{
+    background-color: brown;
+    color: white;
+    padding: 2px 0;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
